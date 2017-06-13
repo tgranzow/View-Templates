@@ -1,0 +1,365 @@
+<div id="p-body">
+    <!-- <div id="p-nav">
+        <span class="p-logo">
+            <a href="#"><%= image_tag("pin-images/pinterest-icon.png", :alt => "pinterest icon") %></a>
+        </span>
+        <div class="p-searchbg">
+            <span id="magnifying" class="p-logo">
+                <a href="#"><%= image_tag("pin-images/magnify3.png", :alt => "magnifying glass") %></a>
+            </span>
+            <span>
+                <input id="p-search" type="text" name="search" placeholder="Search" />
+            </span>
+        </div>
+        <span class="p-logo">
+            <a href="#"><%= image_tag("pin-images/compass.png", :alt => "compass icon") %></a>
+        </span>
+        <span class="p-logo">
+            <a href="#"><%= image_tag("pin-images/user.png", :alt => "user icon") %></a>
+        </span>
+        <span class="p-logo">
+            <a href="#"><%= image_tag("pin-images/message.png", :alt => "messages icon") %></a>
+        </span>
+        <hr class="p-hr"/>
+    </div> -->
+    <div id="p-header">
+         <ul>
+             <div id="p-logo"><%= image_tag("pin-images/pinterest-icon.png", :alt => "pinterest icon") %></div>
+
+             <div id="p-search">
+                 <input id="p-search-box" type="text" placeholder="Search" />
+             </div>
+
+             <div id="p-nav-buttons">
+                 <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+                 <a href="#"><i class="fa fa-commenting" aria-hidden="true"></i></a>
+             </div>
+         </ul>
+     </div>
+    <div id="p-columns">
+        <figure>
+            <%= image_tag("pin-images/blueberry.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    AIP Lemon Blueberry Coffee Cake
+                </div>
+                <div class="pin_topic">
+                    Recipes
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/lawn.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Easy Lawn Care Tips!
+                </div>
+                <div class="pin_topic">
+                    Home Maintenance
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/amsterdam.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Amsterdam canals
+                </div>
+                <div class="pin_topic">
+                    Travel
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/bedroom.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Such a gorgeous bedroom!
+                </div>
+                <div class="pin_topic">
+                    Home
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/bluedress.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Stunning blue gown
+                </div>
+                <div class="pin_topic">
+                    Fashion
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/broken.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    33 amazing quotes
+                </div>
+                <div class="pin_topic">
+                    Quotes
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/husky.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Those eyes though!
+                </div>
+                <div class="pin_topic">
+                    Dogs
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/mountains.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Mountains
+                </div>
+                <div class="pin_topic">
+                    Photography
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/bathroom.jpeg") %>
+            <figcaption>
+                <div class="pin_description">
+                    What a dream bathroom.
+                </div>
+                <div class="pin_topic">
+                    Home
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/comic.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Me 100% of the time!
+                </div>
+                <div class="pin_topic">
+                    Comics
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/greece.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Sunset in Greece
+                </div>
+                <div class="pin_topic">
+                    Travel
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/umbrella.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Umbrella ceiling
+                </div>
+                <div class="pin_topic">
+                    Travel
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/path.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Love this quote!
+                </div>
+                <div class="pin_topic">
+                    Quotes
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/wedding_hair.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Elegant bridal updo
+                </div>
+                <div class="pin_topic">
+                    Wedding
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/humor.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Ah such is the life
+                </div>
+                <div class="pin_topic">
+                    Humor
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/iceland.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    Can't wait to do this someday!
+                </div>
+                <div class="pin_topic">
+                    Travel
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <%= image_tag("pin-images/pup.jpg") %>
+            <figcaption>
+                <div class="pin_description">
+                    The cutest little pup!
+                </div>
+                <div class="pin_topic">
+                    Pets
+                </div>
+                <div class="pin_user_info">
+                    <div class="pin_user_info_pic">
+                        <%= image_tag("pin-images/female.png", :alt =>"pinnerpic", :class=> "pinner_img") %>
+                    </div>
+                    <div class="pin_user_info_name">
+                        User
+                    </div>
+                </div>
+            </figcaption>
+        </figure>
+    </div>
+</div>

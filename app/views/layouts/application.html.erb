@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viewtemplates</title>
+        <%= csrf_meta_tags %>
+
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+          <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+              <ul class="nav nav-tabs">
+                <li><%= link_to "Home", root_path  %></li>
+                <li><%= link_to "Google Clone", pages_google_path %></li>
+                <li><%= link_to "Pinterest Clone", pages_pinterest_path %></li>
+                <li><%= link_to "Tesla Clone", pages_tesla_path %></li>
+                <li><%= link_to "Wedding Website", pages_wedding_path %></li>
+                <li><%= link_to "Social Clone", pages_social_path %></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    <%= yield %>
+</body>
+</html>

@@ -1,0 +1,119 @@
+#tesla-body {
+    min-height: 875px;
+    width: auto;
+    background: url('red.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff;
+}
+
+#t-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#t-logo {
+    margin-right: 60px;
+}
+
+#t-nav img {
+    width: 130px;
+}
+
+#t-nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.t-top-nav-link {
+    margin: 0 8px;
+}
+#t-nav-right {
+font-size: .8em;
+
+}
+
+#t-spacer-span {
+    margin: 0 50px;
+}
+
+#t-center {
+    margin-top: 9%;
+    position: relative;
+}
+
+#t-center-text {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 35px;
+}
+#t-center-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.t-center-tab-btn {
+    margin: 0 10px;
+    padding: 15px 40px;
+    font-size: .8em;
+    border: 1px solid transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    vertical-align: middle;
+}
+.t-center-tab-btn:hover {
+    border: 1px solid #fff;
+    -webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    transition: all 500mss linear;
+}
+
+#t-center-newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+}
+
+#t-center a{
+    text-decoration: none;
+}
+#t-center a:visited {
+    color: white;
+}
+
+.t-footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: .8em;
+
+}
+
+.t-footer a {
+    text-decoration: none;
+}
+.t-footer a:visited {
+    color: white;
+}
+.t-footer img {
+    width: 15px;
+}
+
+.t-footer-btn::after {
+    content: "\2022";
+    padding-left: .9375rem;
+    padding-right: .8125rem;
+}
