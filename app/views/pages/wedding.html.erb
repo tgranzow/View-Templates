@@ -1,4 +1,21 @@
-<div class="container">
-    <h1>Pages#wedding</h1>
-    <p>Find me in app/views/pages/wedding.html.erb</p>
+
+<div class="homepage">
+    <div id="w-navigation">
+        <div class="names_header">
+            <h1> Jason and Talia </h1>
+        </div>
+        <div id="w-nav">
+            <div class="w-nav_item" id="nav_home"><%= link_to "Home"%></div>
+            <div class="w-nav_item" id="nav_OurStory"><%= link_to "About Us"%></div>
+            <div class="w-nav_item" id="nav_TheWedding"><%= link_to "Wedding Details"%></div>
+            <div class="w-nav_item" id="nav_Accomodations"><%= link_to "Accomodations"%></div>
+        </div>
+    </div>
+
+    <div id="weddingDate">
+        <div class="wedding_count">
+            <p class="w_date">June 9, 2018</p>
+            <p id="countDown">Calculating</p>
+        </div>
+    </div>
 </div>
