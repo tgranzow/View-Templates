@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <title>Talia Granzow</title>
         <%= csrf_meta_tags %>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway|Source+Sans+Pro|Euphoria+Script|TP+Sarif|Homemade+Apple|Stalemate" rel="stylesheet">
@@ -11,34 +11,34 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     </head>
 <body>
-<div class="container-fluid body-cont">
-    <nav>
-    <div class="navbar navbar-default navbar-static-top">
-        <div class="container-fluid">
-            <div class=" container web-title">
+    <div class="container-fluid body-cont">
+        <nav>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <div class=" container web-title">
 
-            </div>
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
-                    <span class="nav navbar-nav">
-                        <span class="home-navlinks"><%= link_to "Home", root_path   %></span>
-                        <span class="home-navlinks"><%= link_to "Google Hompage", pages_google_path %></span>
-                        <span class="home-navlinks"><%= link_to "Tesla Homepage", pages_tesla_path   %></span>
-                        <span class="home-navlinks">
-                        <%= link_to "Pinterest Homepage", pages_pinterest_path %></span>
-                        <span class="home-navlinks"><%= link_to "Wedding Homepage", pages_wedding_path %></span>
-                    </span>
+                    <div class="navbar-collapse collapse navbar-responsive-collapse">
+                        <span class="nav navbar-nav">
+                            <span class="home-navlinks"><%= link_to "Home", root_path   %></span>
+                            <span class="home-navlinks"><%= link_to "Google Hompage", pages_google_path %></span>
+                            <span class="home-navlinks"><%= link_to "Tesla Homepage", pages_tesla_path   %></span>
+                            <span class="home-navlinks">
+                            <%= link_to "Pinterest Homepage", pages_pinterest_path %></span>
+                            <span class="home-navlinks"><%= link_to "Wedding Homepage", pages_wedding_path %></span>
+                        </span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <%= yield %>
-</div>
+        <%= yield %>
+    </div>
 </body>
 </html>
